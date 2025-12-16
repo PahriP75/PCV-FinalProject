@@ -5,8 +5,7 @@ Sistem ini membaca gerakan wajah dan tubuh melalui webcam, lalu mengirimkan data
 
 ## ✨ Fitur Utama
 * **Face Tracking:** Mendeteksi kedipan mata, gerakan mulut, dan toleh kepala.
-* **Body Tracking:** Mendeteksi gerakan badan dan lengan (Anti T-Pose).
-* **Hand Tracking:** Mendeteksi gerakan jari (Buka/Tutup tangan).
+* **Body Tracking:** Mendeteksi gerakan lengan (Anti T-Pose).
 * **Auto-Launch:** Script Python otomatis membuka aplikasi Unity saat dijalankan.
 
 ## 📂 Struktur Folder
@@ -49,13 +48,13 @@ Buka terminal/CMD di folder project, lalu ketik:
 ⚙️ Konfigurasi (Opsional)
 Kamu bisa mengubah pengaturan di dalam file main_app.py:
 
-EYE_THRESHOLD: Atur sensitivitas kedip (Default 0.18). Kecilkan jika mata sering kedip sendiri.
+* EYE_THRESHOLD: Atur sensitivitas kedip (Default 0.18). Kecilkan jika mata sering kedip sendiri.
 
-MOUTH_SENSITIVITY: Mengatur seberapa lebar mulut avatar terbuka.
+* MOUTH_SENSITIVITY: Mengatur seberapa lebar mulut avatar terbuka.
 
-MIRROR_MODE: True untuk mode cermin, False untuk gerakan asli.
+* MIRROR_MODE: True untuk mode cermin, False untuk gerakan asli.
 
 ⚠️ Masalah Umum (Troubleshooting)
-SocketException / Error Merah: Port 5052 sedang terpakai. Matikan semua program Python/Unity, lalu jalankan ulang salah satu saja.
+* SocketException / Error Merah: Port 5052 sedang terpakai. Matikan semua program Python/Unity, lalu jalankan ulang salah satu saja.
 
-Avatar Diam (T-Pose): Pastikan jendela Unity sedang aktif (klik layar gamenya sekali).
+* Avatar Diam (T-Pose): Pastikan jendela Unity sedang aktif (klik layar gamenya sekali).
