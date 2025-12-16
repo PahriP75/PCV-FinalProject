@@ -11,14 +11,14 @@ Sistem ini membaca gerakan wajah dan tubuh melalui webcam, lalu mengirimkan data
 ## 📂 Struktur Folder
 Pastikan susunan folder kamu seperti ini agar tidak error:
 
-text
+```text
 📁 NamaRepo/
 ├── 📁 Build/               # Folder hasil build Unity
 │   ├── AvatarApp.exe       # File aplikasi Unity (Nama bisa beda)
 │   └── UnityPlayer.dll     # File pendukung Unity
 ├── main_app.py             # Script Python utama
 └── README.md               # File panduan ini
-
+```
 🛠️ Persyaratan :
 1. OS: Windows 10/11.
 
