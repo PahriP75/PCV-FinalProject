@@ -58,3 +58,6 @@ Kamu bisa mengubah pengaturan di dalam file main_app.py:
 * SocketException / Error Merah: Port 5052 sedang terpakai. Matikan semua program Python/Unity, lalu jalankan ulang salah satu saja.
 
 * Avatar Diam (T-Pose): Pastikan jendela Unity sedang aktif (klik layar gamenya sekali).
+
+Berikut adalah video DEMO (Demonstrasi) :
+https://drive.google.com/drive/folders/1dmUphnFPZZ83_buFwIAkRv84A3FElv4X?usp=sharing
